@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function createTypeImage(type, className = "") {
         const typeImage = document.createElement("img");
         typeImage.className = className + " " + type; // Set class name
-        typeImage.src = `Icon_${type}.webp`; // Adjust the path
+        typeImage.src = `https://raw.githubusercontent.com/crysal/POGO-type-matchup-visualizer/main/Icon_${type}.webp`; // Adjust the path
         typeImage.alt = type;
         typeImage.title = type;
         return typeImage;

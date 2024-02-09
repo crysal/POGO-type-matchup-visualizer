@@ -126,3 +126,11 @@ document.addEventListener("DOMContentLoaded", function() {
 		return typeImage;
 	}
 });
+document.addEventListener("DOMContentLoaded", function() {
+    const modeSwitch = document.getElementById("modeSwitch");
+    const body = document.body;
+
+    modeSwitch.addEventListener("click", function() {
+        body.classList.toggle("dark-mode");
+    });
+});

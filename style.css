@@ -25,6 +25,12 @@ h2 {
     background-color: #333;
     color: #fff;
 }
+button#modeSwitch {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 999; /* Adjust the z-index as needed */
+}
 
 #header {
 	
